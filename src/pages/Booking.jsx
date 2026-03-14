@@ -32,7 +32,7 @@ export default function Booking() {
 <a 
   href={`https://wa.me/${ARTIST.phone}`}
   target="_blank"
-  rel="noopener noreferrer"
+  rel="noopener"
   className="text-gold hover:underline underline-offset-2"
 >
   {ARTIST.phone}
