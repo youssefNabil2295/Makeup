@@ -29,13 +29,14 @@ export default function Booking() {
             <p className="text-center text-cream/30 text-xs mt-8 leading-6">
   أو تواصلي مباشرة:{' '}
   
-    href={`https://wa.me/${ARTIST.phone}`}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-gold hover:underline underline-offset-2"
-  <a>
-    +{ARTIST.phone}
-  </a>
+<a 
+  href={`https://wa.me/${ARTIST.phone}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-gold hover:underline underline-offset-2"
+>
+  {ARTIST.phone}
+</a>
 </p>
       </div>
     </section>
