@@ -26,14 +26,14 @@ export default function Booking() {
 
         {/* ── رقم مباشر ─────────────────────────────────── */}
       
-            <p className="text-center text-cream/30 text-xs mt-8 leading-6">
-  أو تواصلي مباشرة:{' '}
+            <p className="text-center text-cream/30 text-xs mt-8 leading-6">  أو تواصلي مباشرة:{' '}
+  <a>git add .
+
   
     href={`https://wa.me/${ARTIST.phone}`}
     target="_blank"
     rel="noopener noreferrer"
     className="text-gold hover:underline underline-offset-2"
-  <a>
     +{ARTIST.phone}
   </a>
 </p>
